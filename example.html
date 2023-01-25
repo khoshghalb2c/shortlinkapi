@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+   <html>
+      <head>
+         <title>use API</title>
+         <script src="https://theme.khoshghalb2c.ir/jquery_v3.5.1.js"></script>
+      </head>
+      <body>
+         <input id="large-url" value="" placeholder="https://google.com" autocomplete="off"/>
+         <button onclick="demo(this)">use API</button>
+         <h3></h3>
+         <script>
+            var h3 = document.getElementsByTagName("h3")[0];
+            function demo(x){
+               x.innerHTML = "Please waiting...";
+               var url = document.getElementById("large-url").value;
+               jQuery.ajax({
+                  type: "POST",
+                  url: "https://shortlink.khoshghalb2c.ir/api/index.php",
+                  dataType: "json",
+                  data:{link: url, APIKEY: "this-is-a-test-for-use-in-GitHub"},
+                  success: function(obj, textstatus){
+                     setTimeout(function(){
+                        x.innerHTML = "use API";
+                        var h3I = h3.innerHTML;
+                        if(!("error_code" in obj)){
+                           var a = obj.shorted; // shorted-link (example: {a86.ir/hUpiPz})
+                           var b = obj.code; // the word after "a86.ir/" (example: {hUpiPz})
+                           var c = obj.link; // large link (example: {https://shortlink.khoshghalb2c.ir/})
+                           var d = obj.datetime; // persian date&time (example: {1401/10/19 23:11})
+                           var e = obj.time; // time in second (example: {1673293463})
+                           var f = obj.ip; // user ip  (example: {5.126.135.150})
+                           h3.innerHTML = h3I+"<br/><hr/>"+a+"<br/>"+b+"<br/>"+c+"<br/>"+d+"<br/>"+e+"<br/>"+f;
+                        }else{
+                           var a = obj.error_code; // error code (example: {105})
+                           var b = obj.error_text; // error details  (example: {link-is-empty!})
+                           h3.innerHTML = h3I+"<br/><hr/>"+a+"<br/>"+b;
+                        }
+                     }, 1000);
+                  }
+               });
+            }
+         </script>
+      </body>
+   </html>
