@@ -1,5 +1,5 @@
 # shortlinkapi
-[Donate](https://idpay.ir/khoshghalb2c/)
+[![Donate]](https://idpay.ir/khoshghalb2c/)
 Shorten your long links and get a 13 character link with this API.
 
 ## Getting Started
@@ -21,7 +21,7 @@ If there is no problem with the values you sent, Api return below fields:
 5. Time method with name `time`
 6. Your IP with name `ip`
 
-## What is the code and meaning of the errors
+## What is the code and meaning of the errors?
 If the API give error, it is definitely one of the following values:
 1. APIKEY is incorrect <sub>code: **101**</sub>
 2. APIKEY is empty <sub>code: **102**</sub>
@@ -30,6 +30,6 @@ If the API give error, it is definitely one of the following values:
 5. Link is empty <sub>code: **105**</sub>
 6. Link don't send <sub>code: **106**</sub>
 
-> Attention! In case of an error, the name of the returned values is `error_code` and `error_text`
-> 
-> Attention! Contact me to get APIKEY
+## Attentions!
+- In case of an error, the name of the returned values is `error_code` and `error_text`
+- Contact me to get APIKEY
