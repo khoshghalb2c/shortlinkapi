@@ -12,7 +12,7 @@ You need to send 2 parameters to the server and wait for the response.
 1. link; Your Link for shorten.
 2. APIKEY; Your Api-Key for identification.
 
-## How API response?
+## What is the API response?
 If there is no problem with the values you sent, Api return below fields:
 1. Shortened link with the name `shorted`
 2. The golden word used in the shortened link with name `code`
