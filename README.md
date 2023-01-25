@@ -1,5 +1,5 @@
 # ShortLinkAPI
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://idpay.ir/khoshghalb2c/)
+[![Donate](DonateIDPay.svg)](https://idpay.ir/khoshghalb2c/)
 
 Shorten your long links and get a 13 character link with this API.
 
