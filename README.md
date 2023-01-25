@@ -11,7 +11,6 @@ You need to send 2 parameters to the server and wait for the response.
 **The values to send are as follows:**
 1. link; Your Link for shorten.
 2. APIKEY; Your Api-Key for identification.
-You must be send your fields to `https://shortlink.khoshghalb2c.ir/api/index.php` with **`Post`** method.
 
 ## How API response?
 If there is no problem with the values you sent, Api return below fields:
@@ -34,3 +33,4 @@ If the API give error, it is definitely one of the following values:
 ## Attentions!
 - In case of an error, the name of the returned values is `error_code` and `error_text`
 - Contact me to get APIKEY
+- You must be send your fields to `https://shortlink.khoshghalb2c.ir/api/index.php` with **`Post`** method.
