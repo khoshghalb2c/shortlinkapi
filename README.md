@@ -1,5 +1,5 @@
 # shortlinkapi
-[![Donate](https://static.idpay.ir/logo/v2/logo-orange.svg)](https://idpay.ir/khoshghalb2c/)
+[Donate](https://idpay.ir/khoshghalb2c/)
 Shorten your long links and get a 13 character link with this API.
 
 ## Getting Started
@@ -31,4 +31,5 @@ If the API give error, it is definitely one of the following values:
 6. Link don't send <sub>code: **106**</sub>
 
 > Attention! In case of an error, the name of the returned values is `error_code` and `error_text`
+> 
 > Attention! Contact me to get APIKEY
