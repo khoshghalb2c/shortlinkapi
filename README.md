@@ -5,6 +5,8 @@ Shorten your long links and get a 13 character link with this API.
 ## Getting Started
 Read the description below to get started with `shortlinkAPI`.
 
+! You are can shorten your long links in [this](https://shortlink.khoshghalb2c.ir/) link.
+
 ## How to use?
 You need to send 2 parameters to the server and wait for the response.
 **The values to send are as follows:**
