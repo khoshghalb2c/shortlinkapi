@@ -5,8 +5,6 @@ Shorten your long links and get a 13 character link with this API.
 ## Getting Started
 Read the description below to get started with `shortlinkAPI`.
 
-! You are can shorten your long links in [this](https://shortlink.khoshghalb2c.ir/) link.
-
 ## How to use?
 You need to send 2 parameters to the server and wait for the response.
 **The values to send are as follows:**
@@ -32,7 +30,8 @@ If the API give error, it is definitely one of the following values:
 6. Link don't send <sub>code: **106**</sub>
 
 ## Attentions!
-- In case of an error, the name of the returned values is `error_code` and `error_text`
-- Contact me to get APIKEY
+- In case of an error, the name of the returned values is `error_code` and `error_text`.
+- Contact me to get APIKEY.
 - You must be send your fields to `https://shortlink.khoshghalb2c.ir/api/index.php` with **`POST`** method.
-- See example in [here](example.html)
+- See example in [here](example.html).
+- You are can shorten your long links in [this](https://shortlink.khoshghalb2c.ir/) link.
