@@ -32,6 +32,6 @@ If the API give error, it is definitely one of the following values:
 ## Attentions!
 - In case of an error, the name of the returned values is `error_code` and `error_text`.
 - Contact me to get APIKEY.
-- You must be send your fields to `https://shortlink.khoshghalb2c.ir/api/index.php` with **`POST`** method.
+- You must be send your fields to `https://api.khoshghalb2c.ir/shortlink/index.php` with **`POST`** method.
 - See example in [here](example.html).
 - You are can shorten your long links in [this](https://shortlink.khoshghalb2c.ir/) link.
