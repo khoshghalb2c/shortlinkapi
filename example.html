@@ -15,7 +15,7 @@
                var url = document.getElementById("large-url").value;
                jQuery.ajax({
                   type: "POST",
-                  url: "https://shortlink.khoshghalb2c.ir/api/index.php",
+                  url: "https://api.khoshghalb2c.ir/shortlink/index.php",
                   dataType: "json",
                   data:{link: url, APIKEY: "this-is-a-test-for-use-in-GitHub"},
                   success: function(obj, textstatus){
