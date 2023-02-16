@@ -8,8 +8,8 @@ Read the description below to get started with `shortlinkAPI`.
 ## How to use?
 You need to send 2 parameters to the server and wait for the response.
 **The values to send are as follows:**
-1. link; Your Link for shorten.
-2. APIKEY; Your Api-Key for identification.
+1. `link`; Your Link for shorten.
+2. `APIKEY`; Your Api-Key for identification.
 
 ## What is the API response?
 If there is no problem with the values you sent, Api return below fields:
