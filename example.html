@@ -17,7 +17,7 @@
                   type: "POST",
                   url: "https://khoshghalb2c.ir/api/shortlink/index.php",
                   dataType: "json",
-                  data:{link: url, APIKEY: "this-is-a-test-for-use-in-GitHub"},
+                  data:{link: btoa(url), APIKEY: "this-is-a-test-for-use-in-GitHub"},
                   success: function(obj, textstatus){
                      setTimeout(function(){
                         x.innerHTML = "use API";
