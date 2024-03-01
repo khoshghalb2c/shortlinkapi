@@ -3,7 +3,7 @@ Shorten your long links and get a 13 character link with this API.
 
 [![Donate](DonateIDPay.svg)](https://idpay.ir/khoshghalb2c/)
 ## Getting Started
-Read the description below to get started with `shortlinkAPI`.
+Read the description below to get started with **shortlinkAPI**.
 
 ## How to use?
 You need to send 2 parameters to the server and wait for the response.
@@ -22,12 +22,14 @@ If there is no problem with the values you sent, Api return below fields:
 
 ## What is the code and meaning of the errors?
 If the API give error, it is definitely one of the following values:
-1. APIKEY is incorrect <sub>code: **101**</sub>
-2. APIKEY is empty <sub>code: **102**</sub>
-3. APIKEY don't send <sub>code: **103**</sub>
-4. Link is invalid <sub>code: **104**</sub>
-5. Link is empty <sub>code: **105**</sub>
-6. Link don't send <sub>code: **106**</sub>
+1. APIKEY expired <sub>code: **100**</sub>
+2. APIKEY is incorrect <sub>code: **101**</sub>
+3. APIKEY is empty <sub>code: **102**</sub>
+4. APIKEY don't send <sub>code: **103**</sub>
+5. Link is invalid <sub>code: **104**</sub>
+6. Link is empty <sub>code: **105**</sub>
+7. Link don't send <sub>code: **106**</sub>
+8. APIKEY limit is over <sub>code: **107**</sub>
 
 ## Attentions!
 - The `link` sent must be encrypted with structure `Base64`
