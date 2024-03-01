@@ -30,6 +30,7 @@ If the API give error, it is definitely one of the following values:
 6. Link don't send <sub>code: **106**</sub>
 
 ## Attentions!
+- The `link` sent must be encrypted with structure `Base64`
 - In case of an error, the name of the returned values is `error_code` and `error_text`.
 - Contact me to get `APIKEY`.
 - You must be send your fields to `https://khoshghalb2c.ir/api/shortlink/index.php` with **`POST`** method.
@@ -38,5 +39,5 @@ If the API give error, it is definitely one of the following values:
 
 ## Licence
 ```
-Copyright © 2023 Khoshghalb2c.ir. All Rights Reserved.
+Copyright © 2022-2024 Khoshghalb2c.ir. All Rights Reserved.
 ```
