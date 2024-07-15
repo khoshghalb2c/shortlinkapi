@@ -1,7 +1,6 @@
 # ShortLinkAPI
 Shorten your long links and get a 13 character link with this API.
 
-[![Donate](DonateIDPay.svg)](https://idpay.ir/khoshghalb2c/)
 ## Getting Started
 Read the description below to get started with **shortlinkAPI**.
 
