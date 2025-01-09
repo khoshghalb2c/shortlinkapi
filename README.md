@@ -34,9 +34,9 @@ If the API give error, it is definitely one of the following values:
 - The `link` sent must be encrypted with structure `Base64`
 - In case of an error, the name of the returned values is `error_code` and `error_text`.
 - Contact me to get `APIKEY`.
-- You must be send your fields to `https://khoshghalb2c.ir/api/shortlink/index.php` with **`POST`** method.
+- You must be send your fields to `https://a86.ir/API/index.php` with **`POST`** method.
 - See example in [here](example.html).
-- You are can shorten your long links in [this](https://khoshghalb2c.ir/shortlink) link without Api.
+- You are can shorten your long links in [this](https://a86.ir/) link without Api.
 
 ## Licence
 ```
