@@ -5,7 +5,7 @@
          <script src="jquery_v3.5.1.js"></script>
       </head>
       <body>
-         <input id="large-url" value="" placeholder="https://google.com" autocomplete="off"/>
+         <input id="large-url" value="" placeholder="https://github.com/khoshghalb2c/shortlinkapi/" autocomplete="off"/>
          <button onclick="demo(this)">use API</button>
          <h3></h3>
          <script>
@@ -15,18 +15,18 @@
                var url = document.getElementById("large-url").value;
                jQuery.ajax({
                   type: "POST",
-                  url: "https://khoshghalb2c.ir/api/shortlink/index.php",
+                  url: "https://github.com/khoshghalb2c/shortlinkapi",
                   dataType: "json",
-                  data:{link: btoa(url), APIKEY: "this-is-a-test-for-use-in-GitHub"},
+                  data:{link: btoa(url), APIKEY: "[PRIVATE_API_KEY]"},
                   success: function(obj, textstatus){
                      setTimeout(function(){
                         x.innerHTML = "use API";
                         var h3I = h3.innerHTML;
                         if(!("error_code" in obj)){
-                           var a = obj.shorted; // shorted-link (example: {a86.ir/hUpiPz})
-                           var b = obj.code; // the word after "a86.ir/" (example: {hUpiPz})
-                           var c = obj.link; // large link (example: {https://shortlink.khoshghalb2c.ir/})
-                           var d = obj.datetime; // persian date&time (example: {1401/10/19 23:11})
+                           var a = obj.shorted; // shorted-link (example: {a86.ir/DqGvLV})
+                           var b = obj.code; // the word after "a86.ir/" (example: {DqGvLV})
+                           var c = obj.link; // large link (example: {https://github.com/khoshghalb2c/shortlinkapi})
+                           var d = obj.datetime; // persian date&time (example: {1403/10/20 18:37})
                            var e = obj.time; // time in second (example: {1673293463})
                            var f = obj.ip; // user ip  (example: {5.126.135.150})
                            h3.innerHTML = h3I+"<br/><hr/>"+a+"<br/>"+b+"<br/>"+c+"<br/>"+d+"<br/>"+e+"<br/>"+f;
