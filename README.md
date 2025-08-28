@@ -31,7 +31,7 @@ If the API give error, it is definitely one of the following values:
 6. Link is empty <sub>code: **105**</sub>
 7. Link don't send <sub>code: **106**</sub>
 8. APIKEY limit is over <sub>code: **107**</sub>
-> [!TIP]
+> [!NOTE]
 > If an error occurs, the return values ​​are named `error_code` and `error_text`.
 
 ## Attentions!
