@@ -1,3 +1,7 @@
+# ALERT
+> [!CAUTION]
+> This API has been **<ins>expired</ins>** since ***<ins>October 31, 2025</ins>***
+
 # ShortLinkAPI
 Shorten your long links and get a 13 character link with this API.
 
@@ -36,10 +40,10 @@ If the API give error, it is definitely one of the following values:
 
 ## Attentions!
 - Contact me to get `APIKEY`.
-- You must be send your fields to `https://a86.ir/API/index.php` with **`POST`** method.
+- You must be send your fields to ~`https://a86.ir/API/index.php`~ with **`POST`** method.
 - See example in [here](example.html).
-- You are can shorten your long links in [my website](https://khoshghalb2c.ir/shortlink) without Api.
-- You are can shorten your long links in [telegram bot](https://t.me/a86irbot) without Api.
+- You are can shorten your long links in ~[my website](https://khoshghalb2c.ir/shortlink)~ without Api.
+- You are can shorten your long links in ~[telegram bot](https://t.me/a86irbot)~ without Api.
 
 ## Licence
 ```
